@@ -1,0 +1,22 @@
+- Employee
+- Company
+- SystemLog
+
+Employee-Company(M+N)
+
+CQRS Pattern:
+
+
+[Post] api/employees; create a new employee
+- Accepts email, title & companyId
+- New aployee record created
+- Log with "new eployee was created"
+- employee email - uniquie
+- employee title must be unique within a company(1 dev per company_
+
+
+[Post] api/companies; creates a new company
+- company name & array of employees to be created/added
+- system log for a new company and new employees
+- company name unique
+
