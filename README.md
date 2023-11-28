@@ -22,3 +22,6 @@ JWT:
 
 Final:
 - It took me about 8 hrs to do all this.
+
+#Note
+I just notices my CQRS commands are in the .Domain of the project. That should be in the application layer which is the ".Infrastructure" project. That's kind of a mush of infra/app layer.
