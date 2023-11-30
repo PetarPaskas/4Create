@@ -25,3 +25,6 @@ Final:
 
 #Note
 I just notices my CQRS commands are in the .Domain of the project. That should be in the application layer which is the ".Infrastructure" project. That's kind of a mush of infra/app layer.
+
+#Note-2
+Cloud database is no longer available. My free subscription ran out and I'm broke. 
